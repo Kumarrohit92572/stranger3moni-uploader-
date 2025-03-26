@@ -41,10 +41,10 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "22544661")
-API_HASH  = os.environ.get("API_HASH", "5dbcbc7c7388e8442f5da278b5914610")
-BOT_TOKEN = os.environ.get("B7226481388:AAEkIlyrTQWMPH08i3LRFiLAYWPeW0McJB0") 
-  OT_TOKEN", "7573295305:AAF_cJnG1WngHniZHGCRUGWI6miEb2KAizQ") 
+API_ID    = os.environ.get("API_ID", "21567814")
+API_HASH  = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
+BOT_TOKEN = os.environ.get("7600111272:AAGySVMecu0MxAMj400h4zEtjXRmZ4fXa90") 
+  OT_TOKEN", "7534434615:AAEl3tOZzi54kJekygJJKpaTrKWTUIYBjto") 
   
 import random
 
