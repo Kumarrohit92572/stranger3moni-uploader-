@@ -3,17 +3,13 @@ import re
 import sys
 import json
 import time
-import aiohttp
 import asyncio
 import requests
 import subprocess
 import urllib.parse
 import yt_dlp
 import cloudscraper
-import datetime
-import ffmpeg
-from yt_dlp import YoutubeDL
-import yt_dlp as youtube_dl
+from bs4 import BeautifulSoup
 import core as helper
 from utils import progress_bar
 from vars import API_ID, API_HASH, BOT_TOKEN
@@ -22,14 +18,13 @@ from pyromod import listen
 from subprocess import getstatusoutput
 from pytube import YouTube
 from aiohttp import web
-from core import *
-from urllib.parse import urlparse, parse_qs
+
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 from pyrogram.types.messages_and_media import message
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Initialize the bot
 bot = Client(
