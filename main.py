@@ -12,7 +12,6 @@ import yt_dlp
 import cloudscraper
 import datetime
 import ffmpeg
-
 from yt_dlp import YoutubeDL
 import yt_dlp as youtube_dl
 import core as helper
@@ -25,7 +24,6 @@ from pytube import YouTube
 from aiohttp import web
 from core import *
 from urllib.parse import urlparse, parse_qs
-
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
@@ -44,7 +42,6 @@ bot = Client(
 API_ID    = os.environ.get("API_ID", "21567814")
 API_HASH  = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
 BOT_TOKEN = os.environ.get("7600111272:AAGySVMecu0MxAMj400h4zEtjXRmZ4fXa90") 
-  OT_TOKEN", "7534434615:AAEl3tOZzi54kJekygJJKpaTrKWTUIYBjto") 
   
 import random
 
